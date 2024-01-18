@@ -17,7 +17,7 @@ public class RegisterTest {
         // Setam fereastra browserului in fullscreen
         driver.manage().window().maximize();
         // Navigam pe URL ul dorit
-        driver.get("https://tutorialsninja.com/demo/");
+        driver.get(TestData.URL);
         // Click pe MyAccountButton
         TestData.clickOnElement(driver, "//a[@title='My Account']");
         // Click pe Register Button
